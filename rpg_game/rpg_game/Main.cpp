@@ -1,5 +1,5 @@
 #include "Game.h"
-// Test of git change
+
 int main(int argc, char* args[]){
 	cGame game;
 	double delta;
@@ -57,7 +57,7 @@ bool cGame::init(){
 		success = false;
 	}
 	else{
-		mWindow = SDL_CreateWindow("SDL Tutorial", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, SCREEN_WIDTH, SCREEN_HEIGHT, SDL_WINDOW_SHOWN);
+		mWindow = SDL_CreateWindow("RPG the GAME", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, SCREEN_WIDTH, SCREEN_HEIGHT, SDL_WINDOW_SHOWN);
 		if (mWindow == NULL){
 			printf("Window could not be created! SDL_Error: %s/n", SDL_GetError());
 			success = false;
