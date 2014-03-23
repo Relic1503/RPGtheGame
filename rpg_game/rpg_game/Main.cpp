@@ -1,5 +1,5 @@
 #include "Game.h"
-//chris git test
+
 int main(int argc, char* args[]){
 	cGame game;
 	double delta;
