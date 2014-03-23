@@ -1,5 +1,5 @@
 #include "Game.h"
-
+// Test of git change
 int main(int argc, char* args[]){
 	cGame game;
 	double delta;
